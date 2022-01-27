@@ -25,6 +25,9 @@ class Account:
     @property #decorators
     def account_number(self):
         return self._account_number
+    
+    def print_transaction():
+        pass
 
 class Client:
     def __init__(self, name: str):
